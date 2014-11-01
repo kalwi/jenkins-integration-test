@@ -34,11 +34,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <scm>
         <developerConnection>scm:git:ssh://git@github.com:kalwi/jenkins-integration-test.git</developerConnection>
     </scm>
-
 
     <build>
         <extensions>
