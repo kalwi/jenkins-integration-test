@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <name>JIT - Parent</name>
-
     <description>Jenkins Integration Test - Parent</description>
 
     <url>http://build.kalwi.eu:8080/view/JIT/</url>
