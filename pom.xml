@@ -26,4 +26,8 @@
         <module>assembly</module>
     </modules>
 
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com:kalwi/jenkins-integration-test.git</developerConnection>
+    </scm>
+
 </project>
