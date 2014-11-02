@@ -15,7 +15,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>JIT - Reactor</name>
+    <name>JIT - Reactor PO?</name>
     <description>Jenkins Integration Test - Reactor</description>
 
     <modules>
