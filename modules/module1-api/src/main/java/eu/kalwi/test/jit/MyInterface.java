@@ -9,4 +9,8 @@ public interface MyInterface {
     MyDomainObject createMyDomainObject();
 
     String getAttribute(MyDomainObject myDomainObject);
+
+    String getApiVersion();
+
+    String getImplementationVersion();
 }
