@@ -5,7 +5,7 @@
 
     <groupId>eu.kalwi.test.jit</groupId>
     <artifactId>jit-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>JIT - Parent</name>
