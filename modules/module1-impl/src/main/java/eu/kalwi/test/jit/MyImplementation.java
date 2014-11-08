@@ -21,4 +21,12 @@ public class MyImplementation implements MyInterface {
     public String getAttribute(MyDomainObject myDomainObject) {
         return myDomainObject.getAttribute();
     }
+
+    public String getApiVersion() {
+        return "1.0.1";
+    }
+
+    public String getImplementationVersion() {
+        return "1.0.1";
+    }
 }
