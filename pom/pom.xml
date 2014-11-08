@@ -35,7 +35,8 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com:kalwi/jenkins-integration-test.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
@@ -46,6 +47,12 @@
                 <version>1.0-beta-2</version>
             </extension>
         </extensions>
+        <plugins>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+            </plugin>
+        </plugins>
     </build>
 
 

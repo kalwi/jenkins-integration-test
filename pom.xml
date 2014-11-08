@@ -27,7 +27,8 @@
     </modules>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com:kalwi/jenkins-integration-test.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
