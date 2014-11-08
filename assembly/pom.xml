@@ -12,7 +12,7 @@
 
     <groupId>eu.kalwi.test.jit</groupId>
     <artifactId>jit-assembly</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>JIT - Assembly</name>
@@ -20,7 +20,7 @@
 
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
-        <tag>jit-assembly-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
