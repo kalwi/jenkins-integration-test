@@ -6,7 +6,7 @@
     <parent>
         <groupId>eu.kalwi.test.jit</groupId>
         <artifactId>jit-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <groupId>eu.kalwi.test.jit</groupId>
@@ -15,6 +15,24 @@
     <packaging>jar</packaging>
 
     <name>JIT - Module 1 - Implementation</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>maven.kalwi.eu.releases</id>
+            <name>kalwi.eu releases repository</name>
+            <url>http://maven.kalwi.eu/repo/releases</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>eu.kalwi.test.jit</groupId>
@@ -23,9 +41,5 @@
             <type>jar</type>
         </dependency>
     </dependencies>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
+
 </project>

@@ -7,7 +7,7 @@
     <parent>
         <groupId>eu.kalwi.test.jit</groupId>
         <artifactId>jit-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <groupId>eu.kalwi.test.jit</groupId>
@@ -18,6 +18,11 @@
     <name>JIT - Reactor</name>
     <description>Jenkins Integration Test - Reactor</description>
 
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <modules>
         <module>pom</module>
         <module>modules/module1-api</module>
@@ -26,9 +31,11 @@
         <module>assembly</module>
     </modules>
 
-    <scm>
-        <developerConnection>scm:git:ssh://git@github.com/kalwi/jenkins-integration-test.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
+    <repositories>
+        <repository>
+            <id>maven.kalwi.eu.releases</id>
+            <name>kalwi.eu releases repository</name>
+            <url>http://maven.kalwi.eu/repo/releases</url>
+        </repository>
+    </repositories>
 </project>

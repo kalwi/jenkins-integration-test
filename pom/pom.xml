@@ -3,6 +3,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>eu.kalwi</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.1</version>
+        <relativePath/>
+    </parent>
+
     <groupId>eu.kalwi.test.jit</groupId>
     <artifactId>jit-parent</artifactId>
     <version>1.0.2-SNAPSHOT</version>
