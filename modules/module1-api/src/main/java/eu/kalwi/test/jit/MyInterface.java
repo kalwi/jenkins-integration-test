@@ -13,4 +13,6 @@ public interface MyInterface {
     String getApiVersion();
 
     String getImplementationVersion();
+
+    MyDomainObject merge(MyDomainObject myDomainObject1, MyDomainObject myDomainObject2);
 }
